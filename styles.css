@@ -1,0 +1,350 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Sections */
+
+.section-heading{
+    text-align: center;
+    font-family: 'Tapestry', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title */
+
+#title{
+    background-color: #9900F0;
+    text-align: left;
+    padding-bottom: 5%;
+}
+
+.title-image{
+    position: relative;
+    z-index: -1;
+}
+
+.title-section{
+    position: relative;
+    top: 17px;
+    left: 20px;
+    z-index: 1;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem 0;
+    display: flex;
+}
+
+.navbar-brand{
+    font-family: 'Tapestry', cursive;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-item:hover{
+    background-color: #F900BF;
+    text-shadow: #FFB2A6;
+}
+
+.nav-link{
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.nav-link:hover{
+    color: white
+}
+
+/* Title Section */
+
+.overlay{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 5% 3% 5% 0;
+    padding: 7% 1%
+}
+.container1{
+    width: 300px;
+    height: 400px;
+    background: url(image/1.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-100px);
+}
+
+.container2{
+    width: 300px;
+    height: 400px;
+    background: url(image/2.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+
+}
+
+.container3{
+    width: 300px;
+    height: 400px;
+    background: url(image/3.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+    transform: translateY(-100px);
+}
+
+.container4{
+    width: 300px;
+    height: 400px;
+    background: url(image/4.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 0 10px;
+
+}
+
+.big-heading{
+    font-family: 'Libre Bodoni', serif;
+    font-weight: 400;
+    padding-bottom: 60px;
+}
+
+.title_heading{
+    margin: auto;
+    left: 50px;
+    color: azure;
+}
+
+/* Title Image */
+
+
+/* About Section */
+
+#about{
+    position: relative;
+    z-index: 1;
+    margin: 7% 5%;
+}
+
+.about_image{
+    width: 40%;
+    height: 50%;
+    margin: 20px;
+}
+
+.about-box{
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.feature-title{
+    font-family: 'EB Garamond', serif;
+}
+
+.about-para{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+/* Gallery */
+
+#gallery{
+    /* background-color: #D47AE8; */
+    background-color: #FFB2A6;
+}
+
+.gallery-subheading{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.gallery-para{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3rem;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+#carouselGallery{
+    margin: 2% 3%;
+    padding: 10px 0 70px;
+}
+
+.carousel-item{
+    width:100%;
+    height: 90vh;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 7%;
+   
+}
+
+/* Pricing Section */
+
+#pricing{
+  padding: 70px;
+  text-align: center;  
+}
+
+.pricing-para{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-style: italic;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+
+.price-text{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card{
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+/* Get In Touch */
+
+#git{
+    background-color: #FFB2A6;
+    font-family: 'Playfair Display', serif;
+}
+
+.git-img{
+    text-align: center;
+}
+
+.git-image{
+    width: 400px;
+    height: 260px;
+    align-self: center;
+
+}
+
+.gta-block{
+    padding: 3% 2%;
+}
+
+#submitModal{
+    padding: 20px;
+    text-align: center;
+  }
+
+.btn-primary{
+    text-align: center;
+}
+
+.gta-btn{
+    margin: 0 0 5px; 
+}
+
+
+
+
+/* Contact Us */
+
+#contact{
+    position: relative;
+    margin: 3% 2%;
+}
+
+.contact-image{
+    width: 90%;
+    height: 80vh;
+    padding: 3%;
+    margin: 20px;
+    position: relative;
+    left: 10px;
+}
+
+.contact-details{
+    margin-top: 160px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+.fa-chevron-right{
+    color: blue;
+}
+
+.contact-btn{
+    margin: 3% 0;
+}
+
+.contact-btn:hover{
+    background-color: #9900F0;
+    color: azure;
+}
+
+.icons{
+    margin: 2% 0;
+    padding: 2%;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-twitter{
+    color: skyblue;
+}
+
+.fa-instagram{
+    color: #9900F0;
+}
+
+
+/* Footer */
+
+#footer{
+    background-color: #603601;
+    color: aliceblue;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.footer-text{
+    font-family: 'Libre Bodoni', serif;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    margin: 2%;
+
+}
